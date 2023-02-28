@@ -36,7 +36,10 @@ public class Lab {
         int sum = 0;
         int i = 0;
 
-//        code here
+        for(int x = 0; x<end;x++){
+            sum += i;
+            i = i + 1;
+        }
 
         return sum;
     }
